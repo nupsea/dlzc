@@ -16,3 +16,4 @@ if response.headers.get('Content-Type') == 'application/json':
 else:
     print("Non-JSON response:", response.text)
 
+
