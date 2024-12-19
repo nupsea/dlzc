@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "dlzc-c10"
+version = "0.1.0"
+description = ""
+authors = ["nupsea <eanups@yahoo.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.10.15"
+jupyterlab = "^4.3.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
