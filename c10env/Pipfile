@@ -16,4 +16,4 @@ numpy = "*"
 requests = "*"
 
 [requires]
-python_version = "3.10"
+poetpython_version = "3.10"
