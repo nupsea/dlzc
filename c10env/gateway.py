@@ -62,7 +62,7 @@ def predict(url):
     X = preprocessor.from_url(url)
     pb_request = prepare_request(X)
 
-    pb_response = stub.Predict(pb_request, timeout=20.0)
+    pb_response = stub.Predict(pb_request, timeout=120.0)
     response = prepare_response(pb_response)
     return response
 
