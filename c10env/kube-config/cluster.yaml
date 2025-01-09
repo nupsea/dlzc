@@ -1,0 +1,14 @@
+apiVersion: eksctl.io/v1alpha5
+kind: ClusterConfig
+
+metadata:
+  name: basic-cluster
+  region: ap-southeast-2
+
+nodeGroups:
+  - name: ng-1-xlarge
+    instanceType: m5.xlarge
+    desiredCapacity: 1
+    volumeSize: 100
+    ssh:
+      publicKeyPath: TODO
